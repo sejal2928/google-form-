@@ -17,44 +17,34 @@
 - Virtualenv
 - Git
 
-### Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
-   
 
 Replace YOUR_GOOGLE_CLIENT_ID and YOUR_GOOGLE_CLIENT_SECRET with your actual credentials in the app.py file.
 
 python
-Copy code
+code :
 google = oauth.remote_app(
     'google',
     consumer_key='YOUR_GOOGLE_CLIENT_ID',
     consumer_secret='YOUR_GOOGLE_CLIENT_SECRET',
     ...
 )
+
 Running the Application
 Create the Database
-
-bash
-Copy code
+ code :
 python app.py
 This will create users.db SQLite database.
 
 Run the Flask Application
 
-bash
-Copy code
+Code :
 flask run
 Access the Application
 
 Open your web browser and go to http://localhost:5000/.
 
 Directory Structure
-Copy code
+Code ;
 jewellery_auth_app/
 │
 ├── app.py
