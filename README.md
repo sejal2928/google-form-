@@ -33,15 +33,12 @@ Running the Application
 Create the Database
  code :
 python app.py
+
 This will create users.db SQLite database.
 
 Run the Flask Application
-
 Code :
 flask run
-Access the Application
-
-Open your web browser and go to http://localhost:5000/.
 
 Directory Structure
 Code ;
